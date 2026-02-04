@@ -1,6 +1,20 @@
 "use client";
 
-const publications = {
+interface PaperLinks {
+  pdf: string;
+  code?: string;
+  slides?: string;
+  bibtex?: string;
+}
+
+interface Paper {
+  title: string;
+  authors: string[];
+  venue: string;
+  links: PaperLinks;
+}
+
+const publications: Record<string, Paper[]> = {
   "2024": [
     {
       title: "Efficient Hardware Prefetching for Robotics Workloads",
@@ -76,16 +90,14 @@ export default function Publications() {
                   </p>
 
                   <div className="flex flex-wrap gap-3 text-xs">
-                    {paper.links.pdf && (
-                      <a
-                        href={paper.links.pdf}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-primary hover:underline"
-                      >
-                        [PDF]
-                      </a>
-                    )}
+                    <a
+                      href={paper.links.pdf}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      [PDF]
+                    </a>
                     {paper.links.code && (
                       <a
                         href={paper.links.code}
