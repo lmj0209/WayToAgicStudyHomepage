@@ -11,6 +11,7 @@ export default function AIAboutMe() {
       <div className="space-y-8">
         {/* 引言 */}
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
+          <h3 className="text-base font-bold text-primary mb-3">🔥 不忘初心回顾系列</h3>
           <p className="text-sm text-text-secondary leading-relaxed">
             我学习这门课程的目标和最终目标：
           </p>
