@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="zh-CN">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
@@ -27,11 +27,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
-        <div className="min-h-screen flex justify-center bg-background">
-          <div className="w-full max-w-[1600px]">
-            {children}
-          </div>
-        </div>
+        {children}
       </body>
     </html>
   );

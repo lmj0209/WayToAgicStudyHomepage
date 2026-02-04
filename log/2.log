@@ -1,0 +1,55 @@
+20:44:47.425 Running build in Washington, D.C., USA (East) – iad1
+20:44:47.426 Build machine configuration: 2 cores, 8 GB
+20:44:47.551 Cloning github.com/lmj0209/WayToAgicStudyHomepage (Branch: main, Commit: 1d4a039)
+20:44:47.552 Previous build caches not available.
+20:44:47.736 Cloning completed: 185.000ms
+20:44:48.070 Running "vercel build"
+20:44:49.071 Vercel CLI 50.9.6
+20:44:49.668 Installing dependencies...
+20:44:58.953 
+20:44:58.954 added 107 packages in 9s
+20:44:58.954 
+20:44:58.955 29 packages are looking for funding
+20:44:58.955   run `npm fund` for details
+20:44:59.004 Running "npm run build"
+20:44:59.100 
+20:44:59.101 > academic-homepage@2.0.0 build
+20:44:59.101 > next build
+20:44:59.102 
+20:44:59.633 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+20:44:59.634 This information is used to shape Next.js' roadmap and prioritize features.
+20:44:59.635 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+20:44:59.635 https://nextjs.org/telemetry
+20:44:59.635 
+20:44:59.713    ▲ Next.js 15.5.11
+20:44:59.714 
+20:44:59.743    Creating an optimized production build ...
+20:45:00.251  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
+20:45:04.330  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
+20:45:05.300  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
+20:45:08.949  ✓ Compiled successfully in 6.8s
+20:45:08.952    Linting and checking validity of types ...
+20:45:11.971    Collecting page data ...
+20:45:12.050  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
+20:45:13.304    Generating static pages (0/5) ...
+20:45:14.178    Generating static pages (1/5) 
+20:45:14.179    Generating static pages (2/5) 
+20:45:14.180    Generating static pages (3/5) 
+20:45:14.180  ✓ Generating static pages (5/5)
+20:45:14.592    Finalizing page optimization ...
+20:45:14.592    Collecting build traces ...
+20:45:19.810 
+20:45:19.814 Route (app)                                 Size  First Load JS
+20:45:19.814 ┌ ○ /                                    2.85 kB         111 kB
+20:45:19.814 ├ ○ /_not-found                            994 B         103 kB
+20:45:19.815 └ ○ /academic                             1.9 kB         110 kB
+20:45:19.815 + First Load JS shared by all             102 kB
+20:45:19.816   ├ chunks/255-35bf8c00c5dde345.js         46 kB
+20:45:19.816   ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+20:45:19.816   └ other shared chunks (total)          1.92 kB
+20:45:19.816 
+20:45:19.817 
+20:45:19.817 ○  (Static)  prerendered as static content
+20:45:19.817 
+20:45:19.869 Error: No Output Directory named "public" found after the Build completed. Configure the Output Directory in your Project Settings. Alternatively, configure vercel.json#outputDirectory.
+20:45:19.870 Learn More: https://vercel.link/missing-public-directory
