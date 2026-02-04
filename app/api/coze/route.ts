@@ -72,7 +72,11 @@ export async function POST(request: NextRequest) {
   try {
     const { message, conversationId } = await request.json();
 
+    // 详细的错误日志
+    console.log('Coze API called with:', { message, conversationId, hasBotId: !!BOT_ID, hasToken: !!API_TOKEN });
+
     if (!BOT_ID || !API_TOKEN) {
+      console.error('Missing credentials:', { BOT_ID, API_TOKEN });
       return NextResponse.json(
         { error: '服务配置错误，请联系管理员。' },
         { status: 500 }
@@ -105,7 +109,10 @@ export async function POST(request: NextRequest) {
 
     const chatData = await chatResponse.json();
 
+    console.log('Coze chat response:', { status: chatResponse.status, data: chatData });
+
     if (chatData.code !== 0) {
+      console.error('Coze API error:', chatData);
       throw new Error(chatData.msg || '发起对话失败');
     }
 
@@ -130,7 +137,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Coze API error:', error);
     return NextResponse.json(
-      { error: '抱歉，服务暂时不可用，请稍后再试。' },
+      { error: '抱歉，服务暂时不可用，请稍后再试。', details: error instanceof Error ? error.message : String(error) },
       { status: 500 }
     );
   }
