@@ -63,7 +63,7 @@ export default function Sidebar() {
         <div className="space-y-3">
           <SocialLink
             icon="📧"
-            label="Email"
+            label="limengjin@nudt.edu.cn"
             href="mailto:mengjin.li@example.com"
           />
           <SocialLink
