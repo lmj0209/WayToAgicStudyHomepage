@@ -8,7 +8,7 @@ const learningStages = [
     title: "环境配置篇",
     links: [
       { title: "环境配置快速指南", url: "https://vcnt4783we8d.feishu.cn/wiki/Clpbwts1GiuxgQkSdGKcuNO4ncb?from=from_copylink" },
-      { title: "如何在claude配置切换多个模型", url: "https://vcnt4783we8d.feishu.cn/wiki/Clpbwts1GiuxgQkSdGKcuNO4ncb?from=from_copylink" },
+      { title: "如何在claude配置切换多个模型", url: "https://www.cnblogs.com/knqiufan/p/19449849" },
     ],
   },
   {
