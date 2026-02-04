@@ -11,7 +11,18 @@ export default function Sidebar() {
       <aside className="hidden lg:flex flex-col bg-background border-r border-border p-6">
         {/* Avatar */}
         <div className="flex justify-center mb-6">
-          <div className="w-24 h-24 rounded-full bg-card-bg border-4 border-background-alt flex items-center justify-center">
+          <img
+            src="/avatar.jpg"
+            alt="Mengjin Li"
+            className="w-24 h-24 rounded-full border-4 border-background-alt object-cover"
+            onError={(e) => {
+              // 如果图片加载失败，显示占位符
+              const target = e.target as HTMLImageElement;
+              target.style.display = 'none';
+              target.nextElementSibling?.classList.remove('hidden');
+            }}
+          />
+          <div className="w-24 h-24 rounded-full bg-card-bg border-4 border-background-alt flex items-center justify-center hidden">
             <span className="text-4xl font-bold text-primary">ML</span>
           </div>
         </div>
@@ -84,7 +95,17 @@ export default function Sidebar() {
           className="w-full px-4 py-3 flex items-center justify-between"
         >
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-full bg-card-bg flex items-center justify-center">
+            <img
+              src="/avatar.jpg"
+              alt="Mengjin Li"
+              className="w-10 h-10 rounded-full object-cover"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.style.display = 'none';
+                target.nextElementSibling?.classList.remove('hidden');
+              }}
+            />
+            <div className="w-10 h-10 rounded-full bg-card-bg flex items-center justify-center hidden">
               <span className="text-lg font-bold text-primary">ML</span>
             </div>
             <div>
