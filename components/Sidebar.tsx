@@ -42,16 +42,12 @@ export default function Sidebar() {
         {/* Affiliation */}
         <div className="text-center mb-6 px-2">
           <p className="text-sm font-medium text-text-primary">
-            National University
+            XXX University
           </p>
-          <p className="text-sm font-medium text-text-primary">
-            of Defense Technology
-          </p>
-          <p className="text-xs text-text-secondary">国防科技大学</p>
           <p className="text-xs text-text-secondary mt-1">
-            College of Computer Science
+            College of XXX
           </p>
-          <p className="text-xs text-text-secondary">计算机学院</p>
+          <p className="text-xs text-text-secondary">XXX 学院</p>
         </div>
 
         {/* Location */}
@@ -129,10 +125,9 @@ export default function Sidebar() {
 
               <div className="text-center">
                 <p className="text-sm text-text-primary">
-                  National University of Defense Technology
+                  XXX University
                 </p>
-                <p className="text-xs text-text-secondary">国防科技大学</p>
-                <p className="text-xs text-text-secondary">计算机学院</p>
+                <p className="text-xs text-text-secondary">XXX 学院</p>
               </div>
 
               <div className="flex items-center justify-center text-text-secondary text-sm">

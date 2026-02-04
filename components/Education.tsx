@@ -4,14 +4,14 @@ const education = [
   {
     period: "2022 - Present",
     degree: "Ph.D.",
-    school: "National University of Defense Technology",
-    department: "College of Computer Science",
+    school: "XXX University",
+    department: "College of XXX",
   },
   {
     period: "2018 - 2022",
     degree: "B.S.",
-    school: "National University of Defense Technology",
-    department: "School of Computer Science",
+    school: "XXX University",
+    department: "Department of XXX",
   },
 ];
 

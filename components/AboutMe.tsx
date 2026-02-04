@@ -10,8 +10,7 @@ export default function AboutMe() {
 
       <div className="prose prose-slate max-w-none">
         <p className="text-sm text-text-secondary leading-relaxed mb-4">
-          I am a Ph.D. student at the College of Computer Science, National University
-          of Defense Technology (NUDT), advised by{" "}
+          I am a Ph.D. student at the College of XXX, XXX University, advised by{" "}
           <a
             href="https://example.com"
             className="text-primary font-medium hover:underline"
@@ -31,8 +30,7 @@ export default function AboutMe() {
         </p>
 
         <p className="text-sm text-text-secondary leading-relaxed">
-          Previously, I received my B.S. degree from the School of Computer Science,
-          National University of Defense Technology in 2022.
+          Previously, I received my B.S. degree from XXX University in 2022.
         </p>
       </div>
     </section>
