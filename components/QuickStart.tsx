@@ -32,9 +32,11 @@ const learningStages = [
     id: 4,
     title: "理论其他学习资源",
     links: [
+      { title: "如何学习？之学习方法", url: "https://www.yuque.com/yuqueyonghuwzzvqh/itc0en/belhku9ges0g6igv?singleDoc# 《学习方法《认知天性》》" },
       { title: "AI编程学习资源", url: "https://vcnt4783we8d.feishu.cn/wiki/Gqm0wlmsBivwx3kM8QEct02Xn9b?from=from_copylink" },
       { title: "github和claude的配置使用", url: "https://vcnt4783we8d.feishu.cn/wiki/Kxwjw7GQpiin43k6og9cRyGsnjf?from=from_copylink" },
       { title: "代码没达到预期要怎么提问", url: "https://vcnt4783we8d.feishu.cn/wiki/TopEwQjFWiclsKkrQC2cGi6pnqg?from=from_copylink" },
+
     ],
   },
   {

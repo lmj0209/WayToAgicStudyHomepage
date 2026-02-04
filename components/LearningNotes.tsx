@@ -3,38 +3,16 @@
 const notesByCategory = {
   Claude: [
     {
-      title: "Claude 使用入门指南",
-      url: "https://example.com/claude-guide",
+      title: "Claude Code 完全指南：使用方式、技巧与最佳实践",
+      url: "https://www.cnblogs.com/knqiufan/p/19449849",
       date: "2024-01-15",
       tags: ["Claude", "PromptEngineering"],
     },
     {
-      title: "Claude 高级技巧",
-      url: "https://example.com/claude-advanced",
+      title: "skill很厉害的笔记",
+      url: "https://www.cnblogs.com/knqiufan/p/19530852",
       date: "2024-02-10",
       tags: ["Claude", "Advanced"],
-    },
-  ],
-  Nextjs: [
-    {
-      title: "Next.js 14 快速开始",
-      url: "https://example.com/nextjs-14",
-      date: "2024-03-05",
-      tags: ["Next.js", "React"],
-    },
-    {
-      title: "Next.js App Router 详解",
-      url: "https://example.com/nextjs-router",
-      date: "2024-03-15",
-      tags: ["Next.js", "Router"],
-    },
-  ],
-  MCP: [
-    {
-      title: "MCP 协议入门",
-      url: "https://example.com/mcp-intro",
-      date: "2024-04-01",
-      tags: ["MCP", "Protocol"],
     },
   ],
 };
