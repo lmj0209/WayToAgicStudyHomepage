@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import AICodingPage from "@/components/AICodingPage";
+import AIChatButton from "@/components/AIChat/AIChatButton";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <AIChatButton />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import AcademicPage from "@/components/AcademicPage";
+import AIChatButton from "@/components/AIChat/AIChatButton";
 
 export default function Academic() {
   return (
@@ -18,6 +19,7 @@ export default function Academic() {
           </div>
         </div>
       </main>
+      <AIChatButton />
     </div>
   );
 }
